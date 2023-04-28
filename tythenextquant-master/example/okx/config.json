@@ -1,0 +1,21 @@
+{
+    "LOG": {
+		"console": true,
+		"level": "INFO"
+	},
+    "PROXY": "http://127.0.0.1:1080",
+    "ACCOUNTS": [{
+		"platform": "binance",
+		"account": "\u7f51\u683c\u73b0\u8d27-011",
+		"access_key": "NK5fJjxACFWDAi1cyGb40qTrYjzKh5sBvs7NFwsRztSqJvYjm80aNnidInNM9QJb",
+		"secret_key": "i2SZaCIdPdBhIgfJp7NioTpQHk8zIxyIFZFxd17znAYGukwdQESqXHPEydAJO9PB"
+	},{
+		"platform": "okx",
+		"account": "\u7f51\u683c\u73b0\u8d27-011",
+		"access_key": "b451b45a-2edc-4273-a5d5-351080397963",
+		"secret_key": "06C9895D65BCC5B8F3BAA1EE0D8DBF7F",
+		"passphrase": "Abc12345."
+	}],
+    "strategy": "my_test_strategy",
+    "symbol": "BTC-USDT"
+}

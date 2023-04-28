@@ -1,0 +1,23 @@
+{
+    "SERVER_ID":"0",
+    "RUN_TIME_UPDATE":true,
+    "RABBITMQ": {
+        "host": "120.26.56.32",
+        "port": 5672,
+        "username": "tkj",
+        "password": "tkj123456."
+    },
+    "LOG": {
+        "console": true,
+        "level": "INFO", 
+        "path": "/data",
+        "name": "robot.log",
+        "clear": true,
+        "backup_count": 5
+    },
+    "ACCOUNTS": [],
+    "strategy": "",
+    "strategyargs": {"basesymbol":"BTC"},           
+    "strategyeachotherargs":{},  
+    "robotloopcmd":1              
+}

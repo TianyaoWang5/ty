@@ -1,0 +1,59 @@
+# 定位到文件所在目录,运行如下指令即可运行策略
+```
+python main.py config.json
+```
+
+# 配置文件config.json
+```
+{
+    "SERVER_ID": "142",
+    "RUN_TIME_UPDATE": true,
+    "RABBITMQ": {
+        "host": "120.26.56.32",
+        "port": 5672,
+        "username": "tkj",
+        "password": "tkj123456."
+    },
+    "LOG": {
+        "console": true,
+        "level": "INFO",
+        "path": "/data",
+        "name": "robot.log",
+        "clear": true,
+        "backup_count": 5
+    },
+    "PROXY": "http://127.0.0.1:1081",
+    "ACCOUNTS": [{
+        "platform": "binance",
+        "account": "182@qq.com",
+        "access_key": "***",
+        "secret_key": "***"
+    }],
+    "tyquantcentreserver": {
+        "host": "120.26.56.32",
+        "port": "8088"
+    },
+    "strategy": "\u73b0\u8d27\u9ad8\u98912",
+    "strategyargs": {
+        "basesymbol": "BTC",
+        "quotesymbol": "USDT",
+        "startbalance": 500,
+        "floatvaluesbuy": 1000,
+        "floatvaluessell": 1000,
+        "diffprice": 0.002,
+        "mindiffpricerate": 0.001,
+        "maxtradevalueschushi": 50,
+        "chushidepthvalue": 300,
+        "goontrade": false,
+        "lossvalue": 10,
+        "leverage": 2,
+        "ordertype": 1,
+        "intervaltime": 1,
+        "robdish": false
+    },
+    "strategyeachotherargs": {},
+    "robotloopcmd": 1,
+    "strategyid": 24,
+    "username": "tkj123"
+}
+```

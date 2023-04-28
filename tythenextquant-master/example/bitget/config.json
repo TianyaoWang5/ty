@@ -1,0 +1,21 @@
+{
+    "LOG": {
+		"console": true,
+		"level": "INFO"
+	},
+    "PROXY": "http://127.0.0.1:1080",
+    "ACCOUNTS": [{
+		"platform": "binance",
+		"account": "\u6d4b\u8bd5",
+		"access_key": "111",
+		"secret_key": "111"
+	},{
+		"platform": "bitget",
+		"account": "\u6d4b\u8bd5",
+		"access_key": "111",
+		"secret_key": "111",
+		"passphrase": "111"
+	}],
+    "strategy": "my_test_strategy",
+    "symbol": "BTC_USDT"
+}

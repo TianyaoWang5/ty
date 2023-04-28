@@ -1,0 +1,12 @@
+.idea
+*.pyc
+build
+dist
+tbag.egg-info
+MANIFEST
+test
+scripts
+tythenextquant.egg-info
+测试
+.pypirc
+*.db3
